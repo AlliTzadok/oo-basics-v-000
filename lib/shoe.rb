@@ -1,5 +1,5 @@
 class Shoe
-  attr_accessor :color, :size
+  attr_accessor :color, :size, :material
   attr_reader :brand
 
   def initialize(brand)
@@ -8,15 +8,6 @@ class Shoe
 
 
 
-
-
-  def material=(material)
-    @material = material
-  end
-
-  def material
-    @material
-  end
 
   def condition=(condition)
     @condition = condition
